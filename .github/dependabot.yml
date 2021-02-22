@@ -3,7 +3,7 @@ version: 2
 
 updates:
   - package-ecosystem: "bundler"
-    directory: "/"
+    directory: "/docs"
     schedule:
       interval: "daily"
     target-branch: "master"
