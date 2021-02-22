@@ -1,7 +1,7 @@
 ---
 sort: 2
 ---
-# Arduino 
+# Raspberry PI software requirements 
 
 ## Install Arduino Command Line
 
