@@ -16,7 +16,19 @@ Open a terminal window on your Raspberry Pi and copy the following command:
 curl -fsSL https://raw.githubusercontent.com/arduino/arduino-cli/master/install.sh | BINDIR=~/local/bin sh
 ```
 
-Install the Arduino core specific to your board, by running the following command from your Raspberry PI terminal window, if the command is not found and you have recently carried out the step above, try closing the terminal window and opening a new one.
+Install the core index, by running the following command from your Raspberry PI terminal window, if the command is not found and you have recently carried out the step above, try closing the terminal window and opening a new one.
+
+```
+arduino-cli core update-index
+```
+
+Then now we can plug in and power up our Arduino board, and find out what core it needs.
+
+```
+arduino-cli board list
+```
+
+Install the Arduino core specific to your board, 
 
 ```
 arduino-cli core install arduino:avr
