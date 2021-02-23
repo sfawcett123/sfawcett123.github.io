@@ -34,7 +34,7 @@ Install the Arduino core specific to your board,
 arduino-cli core install arduino:avr
 ```
 
-### Install Sketch source
+## Install Sketch source
 
 The Sketch resides in source control and can be copied from the server to the Raspberry PI with the following command; I suggest you create a working directory to do this in to keep things neat and easy to find.
 
