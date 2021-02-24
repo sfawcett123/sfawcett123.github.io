@@ -44,3 +44,15 @@ mkdir DCC
 cd DCC
 git clone https://github.com/sfawcett123/BaseStation.git
 ```
+
+## Java Model Railroad Interface (JMRI)
+
+[JMRI](https://www.jmri.org/) is a controller that can interface with DCC++. It is simple to install.
+
+[Download](https://www.jmri.org/download/index.shtml#prod-rel) the latest LINUX version, then copy this to your DCC working folder, to decompress with the command tar.
+
+The latest version at the time of writing is JMRI.4.20+Rc7ba8249b.tgz, this may well change.
+
+```
+tar -xvzf JMRI.4.20+Rc7ba8249b.tgz
+```
