@@ -42,7 +42,7 @@ The Sketch resides in source control and can be copied from the server to the Ra
 cd ~
 mkdir DCC
 cd DCC
-git clone https://github.com/sfawcett123/BaseStation.git
+git@github.com:sfawcett123/CommandStation-EX.git
 ```
 
 ## Java Model Railroad Interface (JMRI)
