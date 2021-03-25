@@ -10,7 +10,7 @@ description: DCC Controller using an Arduino and Raspberry PI. Based on the DCC+
 #   shortcodes: true
 
 ## remote method ##
-remote_theme: rundocs/jekyll-rtd-theme
+remote_theme: alphagov/tech-docs-template
 
 readme_index:
   with_frontmatter: true
@@ -19,7 +19,3 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
-plugins:
-  - jemoji
-  - jekyll-avatar
-  - jekyll-mentions
