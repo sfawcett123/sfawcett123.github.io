@@ -1,5 +1,1 @@
-require 'govuk_tech_docs'
-
-GovukTechDocs.configure(self)
-
-set :layout, 'custom'
+remote_theme: frankieroberto/govuk-jekyll-theme
