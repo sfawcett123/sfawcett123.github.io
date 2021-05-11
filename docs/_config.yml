@@ -3,8 +3,15 @@ remote_theme: DFE-Digital/govuk-jekyll-theme
 plugins:
   - jekyll-feed
 markdown: kramdown
+permalink: pretty
 
-title: Test 33
+header_links:
+  GitHub: https://github.com/DFE-Digital/architecture
+
+footer_links:
+  Accessibility: https://dfe-digital.github.io/architecture/accessibility
+  
+title: DfE Get Into Teaching Documentation
 author: Steven Fawcett
 email: steve.fawcett@digital.education.gov.uk
 description: zzzzzz
