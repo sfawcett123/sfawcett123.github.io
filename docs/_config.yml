@@ -2,6 +2,8 @@ theme: govuk-jekyll-theme
 remote_theme: DFE-Digital/govuk-jekyll-theme
 plugins:
   - jekyll-feed
+  - jekyll-toc
+  
 markdown: kramdown
 permalink: pretty
 
