@@ -1,5 +1,5 @@
 theme: govuk-jekyll-theme
-remote_theme: frankieroberto/govuk-jekyll-theme
+remote_theme: DFE-Digital/govuk-jekyll-theme
 plugins:
   - jekyll-feed
 markdown: kramdown
