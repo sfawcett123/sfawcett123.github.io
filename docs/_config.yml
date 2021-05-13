@@ -7,13 +7,8 @@ plugins:
 markdown: kramdown
 permalink: pretty
 
-header_links:
-  GitHub: https://github.com/DFE-Digital/architecture
-
-footer_links:
-  Accessibility: https://dfe-digital.github.io/architecture/accessibility
   
-title: DfE Get Into Teaching Documentation
+title: Steve Fawcett
 author: Steven Fawcett
 email: steve.fawcett@digital.education.gov.uk
 description: zzzzzz
