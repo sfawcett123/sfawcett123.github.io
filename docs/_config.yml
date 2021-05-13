@@ -1,14 +1,14 @@
-remote_theme: pmarsceill/just-the-docs
+remote_theme: sfawcett123/just-the-docs
 plugins:
   - jekyll-feed
   - jekyll-toc
   - jekyll-remote-theme
   
 markdown: kramdown
-permalink: pretty
-
   
 title: Steve Fawcett
 author: Steven Fawcett
 email: steve.fawcett@digital.education.gov.uk
+url: "https://sfawcett123.github.io/"
+baseurl: "/steve"
 description: zzzzzz
