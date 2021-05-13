@@ -1,8 +1,8 @@
-theme: govuk-jekyll-theme
-remote_theme: DFE-Digital/govuk-jekyll-theme
+remote_theme: daviddarnes/alembic@main
 plugins:
   - jekyll-feed
   - jekyll-toc
+  - jekyll-remote-theme
   
 markdown: kramdown
 permalink: pretty
