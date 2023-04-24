@@ -1,6 +1,7 @@
 ---
 title: Home
 layout: home
+nav_order: 1
 ---
 
 <img src="https://raw.githubusercontent.com/sfawcett123/FlightSimulator/649c83f4ebd795922bf8745bdef911f6e5b439dd/FlightSimulator/wwwroot/img/phantom.svg" 
