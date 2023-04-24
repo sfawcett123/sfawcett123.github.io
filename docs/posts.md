@@ -1,5 +1,6 @@
 ---
 title: Diary
+nav_order: 100
 ---
 
 <ul>
