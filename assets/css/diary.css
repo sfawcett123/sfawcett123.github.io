@@ -1,0 +1,18 @@
+.diary a {
+    color: blue;
+    font-size:16px;
+    font-weight: bold;
+  }
+
+  .diary span {
+    color: black;
+    font-size:12px;
+    padding-left: 10px;
+  }
+
+  .diary .date {
+    color: grey;
+    padding-left: 0;
+    font-size:10px;
+
+  }
