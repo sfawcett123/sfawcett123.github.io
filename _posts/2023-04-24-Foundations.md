@@ -17,3 +17,6 @@ Since I am based on a single seater, I have two choices.
 2. Use an old gaming chair.
 
 I went with using a gaming chair, removing the swivel base and mounting it using steel supports to my bedframe. This allows me to get started, and is fairly future proof as I can remove it and replace it later.
+
+## Dimensions
+Worrking with some initial Dimensions from this page https://forum.dcs.world/topic/314581-cockpit-dimensions-from-a-real-f-4-phantom/
