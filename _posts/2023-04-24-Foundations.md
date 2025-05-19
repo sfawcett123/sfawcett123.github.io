@@ -1,4 +1,4 @@
----
+ec---
 title: "Foundations"
 summary: "Laying the foundations for the cockpit."
 date: 2023-04-24
@@ -13,7 +13,7 @@ This does now limit me to building a single seater cockpit. but, thats OK. It ha
 ## Seating
 Since I am based on a single seater, I have two choices.
 
-1. Use designs found on the internet to build an enjector seat.
+1. Use designs found on the internet to build an ejector seat.
 2. Use an old gaming chair.
 
 I went with using a gaming chair, removing the swivel base and mounting it using steel supports to my bedframe. This allows me to get started, and is fairly future proof as I can remove it and replace it later.
