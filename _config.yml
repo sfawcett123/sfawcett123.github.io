@@ -1,18 +1,21 @@
-title: Flight Simulator Cockpit
+title: Flight Simulator
 description: Temp
 
-theme: just-the-docs
+theme: minimal-mistakes-jekyll
 plugins:
    - jekyll-remote-theme #
 
 url: https://sfawcett123.github.io/
 
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: default
-      
 aux_links:
   Microsoft Flight Simulator: https://www.flightsimulator.com/
 
+include:
+  - .htaccess
+  - _pages
+
+author:
+  name             : "Steven Fawcett"
+  bio              : "Software Engineer"
+  location         : "Sunderland - UK"
+  email            : "steven.fawcett@me.com"
