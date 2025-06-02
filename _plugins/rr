@@ -1,0 +1,5 @@
+require "open-uri"
+
+yaml_content = open("https://raw.githubusercontent.com/sfawcett123/Ansible/refs/heads/main/group_vars/raspberry/network.yml"){|f| f.read}
+yaml_data = YAML::load(yaml_content)
+puts "VALUE " << String(yaml_data)

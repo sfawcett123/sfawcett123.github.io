@@ -4,6 +4,7 @@ description: Temp
 theme: minimal-mistakes-jekyll
 plugins:
    - jekyll-remote-theme #
+   - jekyll-include-cache
 
 url: https://sfawcett123.github.io/
 
@@ -12,6 +13,7 @@ aux_links:
 
 include:
   - .htaccess
+  - _pages
 
 collections:
   articles:
@@ -22,3 +24,11 @@ author:
   bio              : "Software Engineer"
   location         : "Sunderland - UK"
   email            : "steven.fawcett@me.com"
+
+category_archive:
+  type: liquid
+  path: /categories/
+
+tag_archive:
+  type: liquid
+  path: /tags/

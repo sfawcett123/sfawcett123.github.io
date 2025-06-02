@@ -1,6 +1,8 @@
 ---
 title: 'Raspberry PI Power Supply'
+excerpt: 5v Power supply details
 layout: single
+order: 20
 permalink: /design/psu
 author_profile: true
 header:
