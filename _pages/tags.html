@@ -1,0 +1,27 @@
+---
+layout: single
+title: Tags
+permalink: /tags/
+header:
+  overlay_image: assets/img/phantom.svg
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+---
+
+{% include group-by-array.html collection=site.documents field='tags' %}
+
+<ul>
+    {% for tag in group_names %}
+    {% assign posts = group_items[forloop.index0] %}
+
+    <li>
+        <h2>{{ tag }}</h2>
+        <ul>
+            {% for post in posts %}
+            <li>
+                <a href='{{ site.baseurl }}{{ post.url }}'>{{ post.title }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </li>
+    {% endfor %}
+</ul>
