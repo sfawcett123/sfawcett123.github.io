@@ -13,3 +13,7 @@ I used to work on my favourite plane the [Phantom F4](https://en.wikipedia.org/w
 
 After leaving the RAF I became a software engineer, eventually working in the Platform Engineering field. I developed skills in automated system delivery using tools like [Ansible](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html) and [Python](https://www.python.org/). Which I have utilized in this project.
 
+
+{% for article in site.articles %}
+  <a href="{{ article.url }}"> {{article.title}} </a>
+{% endfor %}

@@ -12,7 +12,10 @@ aux_links:
 
 include:
   - .htaccess
-  - _pages
+
+collections:
+  articles:
+    output: true
 
 author:
   name             : "Steven Fawcett"
