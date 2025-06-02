@@ -3,7 +3,8 @@ title: 'Local Wired Network'
 excerpt: Network router and configuration details
 order: 30
 tags:
-- network
+   - network
+   - hardware
 layout: single
 permalink: /design/network
 author_profile: true

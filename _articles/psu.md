@@ -5,6 +5,9 @@ layout: single
 order: 20
 permalink: /design/psu
 author_profile: true
+tags:
+   - hardware
+   - power
 header:
   overlay_image: assets/img/raspberry_pi.jpg
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
