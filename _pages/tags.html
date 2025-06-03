@@ -14,7 +14,7 @@ header:
     {% assign posts = group_items[forloop.index0] %}
 
     <li>
-        <h2>{{ tag }}</h2>
+        <h2>{{ tag | capitalize }}</h2>
         <ul>
             {% for post in posts %}
             <li>
