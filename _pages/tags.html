@@ -14,12 +14,10 @@ header:
     {% assign posts = group_items[forloop.index0] %}
 
     <li>
-        <h2>{{ tag | capitalize }}</h2>
+        <h2 id={{tag}}>{{ tag | capitalize }}</h2>
         <ul>
             {% for post in posts %}
-            <li>
-                <a href='{{ site.baseurl }}{{ post.url }}'>{{ post.title }}</a>
-            </li>
+            <li> <a href='{{ site.baseurl }}{{ post.url }}'>{{ post.title }}</a> </li>
             {% endfor %}
         </ul>
     </li>
