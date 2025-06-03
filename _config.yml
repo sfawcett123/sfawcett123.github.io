@@ -35,4 +35,4 @@ tag_archive:
 
 yaml:
   - filename: https://raw.githubusercontent.com/sfawcett123/Ansible/refs/heads/main/group_vars/raspberry/network.yml
-    name: network_config
+    name: network
