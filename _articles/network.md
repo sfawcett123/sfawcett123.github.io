@@ -21,3 +21,8 @@ This meant that I needed a rack mounted network switch, so scouring the local pa
 
 To provide the IP4 network addresses I have deployed the [kea DHCP4]( https://kea.readthedocs.io/en/kea-2.2.0/arm/dhcp4-srv.html) application on a Raspberry Pi using an [Ansible Playbook]( https://github.com/sfawcett123/Ansible)
 
+### Settings
+
+- Subnet 
+- From {{ site.data.network.subnet.range.from }}
+- To {{ site.data.network.subnet.range.to }}

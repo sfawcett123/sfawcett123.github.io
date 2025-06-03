@@ -32,3 +32,7 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+yaml:
+  - filename: https://raw.githubusercontent.com/sfawcett123/Ansible/refs/heads/main/group_vars/raspberry/network.yml
+    name: network
