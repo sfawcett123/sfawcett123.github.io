@@ -13,9 +13,6 @@ header:
 navigate:
   index: false
 ---
-
-## DHCP
-
 ## DHCP
 [kea DHCP4]( https://kea.readthedocs.io/en/kea-2.2.0/arm/dhcp4-srv.html) has been deployed on the __manager__ Rasberry PI to handle IP addresses. DNS will also be configured to enable server naming.
 
