@@ -15,5 +15,7 @@ After leaving the RAF I became a software engineer, eventually working in the Pl
 
 {% assign list = site.articles | sort: 'order' %}
 {% for article in list %}
+  {% if article.navigate.index <> false %}
   <a href="{{ article.url }}"> {{article.title}} </a> &nbsp; - &nbsp; {{article.excerpt}}
+  {% endif %}
 {% endfor %}

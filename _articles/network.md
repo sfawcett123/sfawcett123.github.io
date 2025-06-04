@@ -21,16 +21,11 @@ This meant that I needed a rack mounted network switch, so scouring the local pa
 
 To provide the IP4 network addresses I have deployed the [kea DHCP4]( https://kea.readthedocs.io/en/kea-2.2.0/arm/dhcp4-srv.html) application on a Raspberry Pi using an [Ansible Playbook]( https://github.com/sfawcett123/Ansible)
 
-## DHCP
-[kea DHCP4]( https://kea.readthedocs.io/en/kea-2.2.0/arm/dhcp4-srv.html) has been deployed on the __manager__ Rasberry PI to handle IP addresses. DNS will also be configured to enable server naming.
+### Further reading
 
-### Settings
-The settings here are from the Ansible Playbook:
-
-| Setting | Value | 
-|---------|-------|
-| CIDR    | {{ site.data.network.subnet.cidr }} |
-| Subnet Range From | {{ site.data.network.subnet.range.from }} |
-| Subnet Range To   | {{ site.data.network.subnet.range.to }} |
-| Mask | {{ site.data.network.subnet.options.subnet_mask }} |
-| Broadcast | {{ site.data.network.subnet.options.broadcast_address }} |
+{% assign list = site.articles | sort: 'order' %}
+{% for article in list %}
+  {% if article.tags contains "network" and page.title != article.title  %}
+- <a href="{{ article.url }}"> {{article.title}} </a> &nbsp; - &nbsp; {{article.excerpt}}
+  {%endif %}
+{% endfor %}
