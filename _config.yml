@@ -34,5 +34,5 @@ tag_archive:
   path: /tags/
 
 yaml:
-  - filename: https://raw.githubusercontent.com/sfawcett123/Ansible/refs/heads/main/group_vars/raspberry/network.yml
+  - filename: https://raw.githubusercontent.com/sfawcett123/Ansible/refs/heads/main/group_vars/all/network.yml
     name: network
